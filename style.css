@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+  background-color: aquamarine;
+}
+
+.container {
+  margin-top: 50px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  width: 100px;
+  height: 200px;
+
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.white {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.pink {
+  background-color: pink;
+  width: 100%;
+  height: 100%;
+}
+.blue {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+.purple {
+  background-color: purple;
+  width: 100%;
+  height: 100%;
+}
+.yellow {
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+}
+.green {
+  background-color: green;
+  width: 100%;
+  height: 100%;
+}
+.orange {
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+}
